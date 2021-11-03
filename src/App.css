@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #131313;
+    color: white;
+}
+.buttonPages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    margin: 10px auto;
+}
+.buttonPages button{
+    width: 100px;
+    cursor: pointer;
+    padding: 10px 5px;
+    background-color: blue;
+    color: white;
+}

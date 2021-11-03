@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    text-align: center;
+}
+li img{
+    width: 180px;
+}
+.alive{
+    background-color: green;
+}
+.dead{
+    background-color: red;
+}
+.unknown{
+    background-color: gray;
+}
+.alive, .dead, .unknown{
+    margin: 15px 15px;
+    width: 200px;
+}
